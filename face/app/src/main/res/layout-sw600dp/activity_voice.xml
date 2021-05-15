@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_main"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <Button
+            android:id="@+id/btnStartRecord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开始识别"/>
+    <Button
+            android:id="@+id/btnStopRecord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="停止识别"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"/>
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:id="@+id/tvResult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="状态" />
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"/>
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:id="@+id/tvParseResult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="处理结果" />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
+

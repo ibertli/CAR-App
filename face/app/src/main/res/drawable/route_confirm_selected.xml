@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_activated="true"><shape>
+		<solid android:color="@color/red" />
+		<corners android:radius="6dp" />
+	</shape></item>
+	
+	<item android:state_activated="false"><shape>
+		<solid android:color="@color/green" /> <!--"确定"按钮的默认颜色,@color/lightyellow与colors.xml中定义的元素相关-->
+		<corners android:radius="6dp" />
+	</shape></item>
+	
+	
+	<item><shape>
+		<solid android:color="@color/color_d81e06" />
+		<corners android:radius="6dp" />
+	</shape></item>
+</selector>

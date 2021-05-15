@@ -1,0 +1,42 @@
+////////////////////////////////////////////////////////////////////////////////
+//                   ArcSoft Face Tracking Library 		              //        
+////////////////////////////////////////// /////////////////////////////////////
+
+Introduction:
+ArcSoft Face Tracking Library provides the universal interfaces to detect and track face.
+
+Publish date:
+07/02/2018
+
+Version:
+1.2.0.42
+
+Supported platform:
+ANDROID_ARM32
+
+Compile Options:
+
+
+Dependency:
+None
+
+Known issues:
+None.
+
+File List:
+|---doc
+|   |---ARCSOFT_FACE_TRACKING_DEVELOPER'S_GUIDE.pdf  Developer's guide
+|---libs
+|   |---armeabi
+|   |   |---libArcSoft_FTEngine.so                Library
+|   |   |---libmpbase.so                          Library
+|   |---armeabi-v7a
+|   |   |---libArcSoft_FTEngine.so                Library
+|   |   |---libmpbase.so                          Library
+|   |---facetracking.jar
+|---samplecode
+|   |---sample.java
+|---releasenotes.txt
+
+Change Logs:
+Initial version

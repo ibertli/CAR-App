@@ -1,0 +1,42 @@
+////////////////////////////////////////////////////////////////////////////////
+//                   ArcSoft Gender Detection Library 		              //        
+////////////////////////////////////////// /////////////////////////////////////
+
+Introduction:
+ArcSoft Gender Detection Library provides the interfaces to detect faces.
+
+Publish date:
+07/02/2018
+
+Version:
+1.2.0.44
+
+Supported platform:
+ANDROID_ARM32
+
+Compile Options:
+
+
+Dependency:
+None
+
+Known issues:
+None.
+
+File List:
+|---doc
+|   |---ARCSOFT_GENDER_ESTIMATION_DEVELOPER'S_GUIDE.pdf  Developer's guide
+|---libs
+|   |---armeabi
+|   |   |---libArcSoft_GEEngine.so                Library
+|   |   |---libmpbase.so                          Library
+|   |---armeabi-v7a
+|   |   |---libArcSoft_GEEngine.so                Library
+|   |   |---libmpbase.so                          Library
+|   |---genderestimation.jar
+|---samplecode
+|   |---sample.java
+|---releasenotes.txt
+
+Change Logs:
+Initial version

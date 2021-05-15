@@ -1,0 +1,42 @@
+////////////////////////////////////////////////////////////////////////////////
+//                   ArcSoft Face Recognition Library 		              //        
+////////////////////////////////////////// /////////////////////////////////////
+
+Introduction:
+ArcSoft Face Recognition Library provides the universal interfaces to identify or verify the ID of one person based on his/her face picture.
+
+Publish date:
+07/02/2018
+
+Version:
+1.2.0.42
+
+Supported platform:
+ANDROID_ARM32
+
+Compile Options:
+
+
+Dependency:
+None
+
+Known issues:
+None.
+
+File List:
+|---doc
+|   |---ARCSOFT_FACE_RECOGNITION_DEVELOPER'S_GUIDE.pdf  Developer's guide
+|---libs
+|   |---armeabi
+|   |   |---libArcSoft_FREngine.so                Library
+|   |   |---libmpbase.so                          Library
+|   |---armeabi-v7a
+|   |   |---libArcSoft_FREngine.so                Library
+|   |   |---libmpbase.so                          Library
+|   |---facerecognition.jar
+|---samplecode
+|   |---sample.java
+|---releasenotes.txt
+
+Change Logs:
+Initial version

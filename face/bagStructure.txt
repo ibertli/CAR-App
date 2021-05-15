@@ -1,0 +1,57 @@
+Android Studio版本	3.4.1
+compileSdkVersion	29
+gradle版本		5.1.1（wrapper/gradle-wrapper.properties中）
+项目GitHub地址		https://github.com/backover/hirain（README在这里）
+
+前往UDPSocket中修改IP地址和端口，平板的IP要设置为：192.168.0.135。  
+
+------------------------------------------
+Package Bluetooth	蓝牙模块
+-package view  		蓝牙视图
+--PullHeadView 		标题视图
+--PullRefreshListView  	拉动刷新列表视图
+--PullToRefreshFrameLayout 拉动刷新框架
+--WaveView  		滚动视图
+-AppConstants  		列表状态
+-BLEActivity  		蓝牙Activity
+-CharacterActivity  	蓝牙活动
+-ClientManager 		蓝牙客户端管理类
+-CommonUtils 		工具类
+-DetailItem  		Item类
+-DeviceDetailActivity	蓝牙设备信息处理
+-DeviceDetailAdapter	蓝牙设备信息适配器
+-SecureConnector	安全连接
+-StringUtils		字符串工具
+
+------------------------------------------
+Package Detect		人脸识别模块
+-Application		全局变量类
+-DetecterActivity	人脸识别 (183行处修改匹配阈值)
+-FaceDB			人脸数据库类
+-LoginRegisterActivity	人脸识别注册界面（本归为login包，因为用到包内私有类的缘故放在此包）
+-MainActivity		主活动
+-QRCodeActivity		二维码
+-RegisterActivity	简单人脸注册
+
+------------------------------------------
+Package login		登陆注册模块
+-DBHelper		数据库帮助类
+-DBManager		数据库管理类
+-DrawableTextView	注册界面Logo视图
+-KeyboardWatcher	键盘弹出监测（实现注册界面输入框移动）
+-LoginAction		注册主界面
+-UsersInfo		用户信息类
+
+------------------------------------------
+Package Map		智能驾驶
+-GPSUtil		地图坐标转换工具
+-HeartbeatTimer		心跳包
+-MapActivity		地图主活动 (智能驾驶主窗口，dataProcess函数实现对接收数据的处理)
+-UDPActivity		UDP通信活动（写的UDP通信demo，将其集成到MapActivity中实现数据通信，已集成）
+-UDPSocket		UDP连接类 (此类中修改IP和端口)
+
+------------------------------------------
+Package Voice		语音识别
+-package asrfinishjson	json数据处理
+-package asrpartialjson	json数据处理
+-VoiceActivity		语音识别活动（百度语音识别）

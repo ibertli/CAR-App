@@ -1,0 +1,42 @@
+////////////////////////////////////////////////////////////////////////////////
+//                   ArcSoft Age Detection Library 		              //        
+////////////////////////////////////////// /////////////////////////////////////
+
+Introduction:
+ArcSoft Age Detection Library provides the interfaces to detect faces.
+
+Publish date:
+07/02/2018
+
+Version:
+1.2.0.44
+
+Supported platform:
+ANDROID_ARM32
+
+Compile Options:
+
+
+Dependency:
+None
+
+Known issues:
+None.
+
+File List:
+|---doc
+|   |---ARCSOFT_AGE_ESTIMATION_DEVELOPER'S_GUIDE.pdf  Developer's guide
+|---libs
+|   |---armeabi
+|   |   |---libArcSoft_AEEngine.so                Library
+|   |   |---libmpbase.so                          Library
+|   |---armeabi-v7a
+|   |   |---libArcSoft_AEEngine.so                Library
+|   |   |---libmpbase.so                          Library
+|   |---ageestimation.jar
+|---samplecode
+|   |---sample.java
+|---releasenotes.txt
+
+Change Logs:
+Initial version

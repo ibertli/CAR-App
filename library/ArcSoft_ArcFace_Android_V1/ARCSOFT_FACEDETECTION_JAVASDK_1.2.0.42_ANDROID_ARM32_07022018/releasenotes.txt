@@ -1,0 +1,42 @@
+////////////////////////////////////////////////////////////////////////////////
+//                   ArcSoft Face Detection Library 		              //        
+////////////////////////////////////////// /////////////////////////////////////
+
+Introduction:
+ArcSoft Face Detection Library provides the interfaces to detect faces.
+
+Publish date:
+07/02/2018
+
+Version:
+1.2.0.42
+
+Supported platform:
+ANDROID_ARM32
+
+Compile Options:
+
+
+Dependency:
+None
+
+Known issues:
+None.
+
+File List:
+|---doc
+|   |---ARCSOFT_FACE_DETECTION_DEVELOPER'S_GUIDE.pdf  Developer's guide
+|---libs
+|   |---armeabi
+|   |   |---libArcSoft_FDEngine.so                Library
+|   |   |---libmpbase.so                          Library
+|   |---armeabi-v7a
+|   |   |---libArcSoft_FDEngine.so                Library
+|   |   |---libmpbase.so                          Library
+|   |---facedetection.jar
+|---samplecode
+|   |---sample.java
+|---releasenotes.txt
+
+Change Logs:
+Initial version

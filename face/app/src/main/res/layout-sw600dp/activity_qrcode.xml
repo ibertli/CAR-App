@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <cn.bingoogolapple.qrcode.zxing.ZXingView
+            android:id="@+id/zxingview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            app:qrcv_animTime="1000"
+            app:qrcv_borderColor="@android:color/white"
+            app:qrcv_borderSize="1px"
+            app:qrcv_cornerColor="@android:color/holo_green_dark"
+            app:qrcv_cornerLength="20dp"
+            app:qrcv_cornerSize="5dp"
+            app:qrcv_isShowDefaultScanLineDrawable="true"
+            app:qrcv_isShowTipTextAsSingleLine="true"
+            app:qrcv_isTipTextBelowRect="true"
+            app:qrcv_maskColor="#64000000"
+
+            app:qrcv_qrCodeTipText="将二维码放入框内，自动扫描"
+            app:qrcv_rectWidth="200dp"
+            app:qrcv_scanLineColor="@android:color/holo_green_light"
+            app:qrcv_scanLineSize="2dp"
+            app:qrcv_tipTextColor="@android:color/white"
+            app:qrcv_tipTextMargin="15dp"
+            app:qrcv_tipTextSize="18dp" />
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/start_spot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="开始扫码" />
+
+        <Button
+                android:id="@+id/stop_spot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="暂停扫码" />
+
+        <Button
+                android:id="@+id/open_flashlight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="开灯" />
+
+        <Button
+                android:id="@+id/close_flashlight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="关灯" />
+    </LinearLayout>
+</RelativeLayout>

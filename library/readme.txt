@@ -1,0 +1,4 @@
+所用到的SDK
+AMap3DMap_AMapNavi_AMapSearch_AMapLocation 	高德地图SDK
+ArcSoft_ArcFace_Android_V1 			虹软人脸识别SDK
+audiobd_speech_sdk_asr_v3			百度语音识别SDK

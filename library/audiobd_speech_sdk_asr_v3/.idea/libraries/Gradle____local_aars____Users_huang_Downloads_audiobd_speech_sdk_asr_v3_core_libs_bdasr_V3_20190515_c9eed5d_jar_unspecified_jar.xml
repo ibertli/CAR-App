@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:/Users/huang/Downloads/audiobd_speech_sdk_asr_v3/core/libs/bdasr_V3_20190515_c9eed5d.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/core/libs/bdasr_V3_20190515_c9eed5d.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
